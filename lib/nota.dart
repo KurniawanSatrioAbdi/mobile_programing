@@ -143,7 +143,7 @@ class NotaLaundry extends StatelessWidget {
       await imageFile.writeAsBytes(pngBytes);
 
       // Buat pesan WhatsApp
-      final message = '🧺 NOTA LAUNDRY BERSIH\n\n'
+      final message = '🧺 NOTA KURNIAWAN LAUNDRY\n\n'
           'Halo ${order['namaPelanggan']},\n\n'
           'Berikut nota laundry Anda:\n'
           '📋 No. Order: ${order['noOrder']}\n'
@@ -342,7 +342,7 @@ class NotaLaundry extends StatelessWidget {
       await imageFile.writeAsBytes(pngBytes);
 
       // Buat pesan untuk share
-      final message = '🧺 Nota Laundry Bersih\n\n'
+      final message = '🧺 Nota Kurniawan Laundry\n\n'
           '👤 Pelanggan: ${order['namaPelanggan']}\n'
           '📋 No. Order: ${order['noOrder']}\n'
           '📅 Tanggal: ${order['tanggalMasuk']}\n'
@@ -575,7 +575,7 @@ class NotaLaundry extends StatelessWidget {
                             ),
                             const SizedBox(height: 12),
                             const Text(
-                              "LAUNDRY BERSIH",
+                              "KURNIAWAN LAUNDRY",
                               style: TextStyle(
                                 fontSize: 24,
                                 fontWeight: FontWeight.bold,
